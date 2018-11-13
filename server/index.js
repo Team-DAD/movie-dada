@@ -12,10 +12,10 @@ app.get('/api/movies/:genre/relatedmovies', (req, res) => {
   const param = req.params.genre.slice(1);
   db.getAll(param, (error, results) => {
     if (error) {
-      console.log(error);
       res.status(500).send(error.message);
+    } else {
+      res.send(results);
     }
-    res.send(results);
   });
 });
 
