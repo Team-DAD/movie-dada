@@ -1,6 +1,8 @@
-# Project Name
+# Moovi - Related Movies Service
 
-> Project description
+Front End React application. Related movies service with added carousel functionality, part of a movie ticketing application.
+
+![Related Movies Module](related-movies-fec-service.png)
 
 ## Related Projects
 
